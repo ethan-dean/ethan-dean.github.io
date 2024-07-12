@@ -1,0 +1,18 @@
+{
+  "projects":[
+    {
+      "id": 0,
+      "name": "Cruise Connect",
+      "description": "A social media platform to bring people together before their cruise boards...",
+      "stack": ["Javascript", "React", "Node", "Express", "MySQL", "Docker", "AWS", "Clerk"],
+      "link": "https://thecruiseconnect.com"
+    },
+    {
+      "id": 1,
+      "name": "Portfolio Website",
+      "description": "A display of my current projects, rendered from JSON to allow quick additions of new projects...",
+      "stack": ["Javascript", "React", "Three.js", "Tailwind", "Vite"],
+      "link": "https://ethandean.dev"
+    }
+  ]
+}
