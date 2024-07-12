@@ -6,12 +6,13 @@ import Contact from "./modules/Contact.jsx"
 function App() {
 
   return (
-    <>
-      <Navbar />
+    <div className="h-screen">
       <About />
       <Projects />
       <Contact />
-    </>
+      {/* Navbar is last so that the mobile menu will be on top of all other elements. */}
+      <Navbar />
+    </div>
   )
 }
 
