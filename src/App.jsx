@@ -7,7 +7,7 @@ import Footer from "./modules/Footer.jsx"
 function App() {
 
   return (
-    <div className="h-screen">
+    <div className="scroll-mt-24">
       <About />
       <Projects />
       <Contact />

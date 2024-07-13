@@ -35,20 +35,22 @@ function Projects() {
   )
   
   return (
-    <div id="projects" className="">
-      {/* Title uses two spacers to match the structure of cards, so that
-          the title is always left justified above the first card */}
-      <div className="flex flex-wrap justify-evenly w-screen">
-        <div className="flex flex-wrap justify-evenly">
-          <p className="w-72 md:w-60 text-2xl mb-3">Projects</p>
-          <p className="w-48 h-0 invisible">Spacer</p>
+    <>
+      <div id="projects" className="scroll-mt-24">
+        {/* Title uses two spacers to match the structure of cards, so that
+            the title is always left justified above the first card */}
+        <div className="w-screen xl:w-[1280px] xl:mx-auto flex flex-wrap justify-evenly">
+          <div className="flex flex-wrap justify-center w-[432px]">
+            <p className="w-72 md:w-60 text-2xl mb-3">Projects</p>
+            <p className="w-48 h-0 invisible">Spacer</p>
+          </div>
+          <p className="w-[432px] h-0 invisible">Spacer</p>
         </div>
-        <p className="w-[432px] h-0 invisible">Spacer</p>
+        <div className="w-screen xl:w-[1280px] xl:mx-auto flex flex-wrap justify-evenly content-center mb-12">
+          { projectCards }
+        </div>
       </div>
-      <ul className="flex flex-wrap content-center justify-evenly w-screen mb-12">
-        { projectCards }
-      </ul>
-    </div>
+    </>
   )
 }
 
