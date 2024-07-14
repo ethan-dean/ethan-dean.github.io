@@ -21,17 +21,17 @@ function Projects() {
 
   
   const projectCards = projectData.map((project, index) =>
-    <li key={index} className="flex flex-wrap justify-center w-[432px] mb-6">
+    <a key={index} href={project.link} className="flex flex-wrap justify-center w-[432px] mb-6 *:text-black *:hover:text-blue-700 hover:cursor-pointer">
       <div className="flex flex-col w-72 md:w-60 mb-2">
-        <a href={project.link}><p className="text-lg text-black font-bold hover:text-blue-700">{project.name}</p></a>
+        <p className="text-lg font-bold text-inherit">{project.name}</p>
         <p className="font-light">{project.description}</p>
       </div>
       <div className="grid grid-cols-2 w-48">
         {project.stack.map((sw, index) => 
-          <p key={index} className="font-semibold text-gray-900">{sw}</p> 
+          <p key={index} className="font-semibold text-inherit">{sw}</p> 
         )}
       </div>
-    </li>
+    </a>
   )
   
   return (
