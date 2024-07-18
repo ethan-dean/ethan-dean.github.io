@@ -25,23 +25,23 @@ function Navbar() {
         <div className="flex md:hidden flex-col justify-between h-18 p-3">
           <input type="checkbox" className="fixed z-10 top-4 right-5 w-8 h-8 opacity-0 peer" />
 
-          <span className="w-8 h-1 bg-black rounded-sm transition-all peer-checked:rotate-45 peer-checked:translate-y-[10px]" />
+          <span className="w-8 h-1 bg-black rounded-sm transition-all peer-checked:rotate-45 peer-checked:translate-y-[6px]" />
           <span className="w-8 h-1 bg-black rounded-sm transition-all peer-checked:scale-x-0" />
-          <span className="w-8 h-1 bg-black rounded-sm transition-all peer-checked:-rotate-45 peer-checked:-translate-y-[10px]" />
+          <span className="w-8 h-1 bg-black rounded-sm transition-all peer-checked:-rotate-45 peer-checked:-translate-y-[7px]" />
 
-          <ul className="bg-gray-200 fixed z-50 top-[65px] -right-56 h-screen w-56 p-4 pl-6 transition-all peer-checked:-translate-x-56">
+          <ul className="bg-gray-200 fixed z-50 top-[57px] -right-56 h-screen w-56 p-4 pl-6 transition-all peer-checked:-translate-x-56">
             <li><a className="flex text-xl font-semibold items-center text-black no-underline pb-1" href="#about">About</a></li>
             <li><a className="flex text-xl font-semibold items-center text-black no-underline pb-1" href="#projects">Projects</a></li>
             <li><a className="flex text-xl font-semibold items-center text-black no-underline pb-1" href="#contact">Contact</a></li>
             <li><a className="flex text-xl font-semibold items-center text-black no-underline pb-1" href="/resume.pdf">Resume</a></li>
             <li>
               <a className="flex items-center mr-1 pb-1" href="https://github.com/ethan-dean" type="blank_">
-                <img className="w-10 h-10 p-1 flex items-center" src="/github.png"></img>
+                <img className="w-10 h-10 p-1 brightness-[0%] hover:filter-none" src="/github.png"></img>
               </a>
             </li>
             <li>
               <a className="flex items-center mr" href="https://www.linkedin.com/in/ethandean1" type="blank_">
-                <img className="w-10 h-10 p-1" src="/linkedin.png"></img>
+                <img className="w-10 h-10 p-1 brightness-[0%] hover:filter-none" src="/linkedin.png"></img>
               </a>
             </li>
           </ul>
