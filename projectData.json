@@ -3,20 +3,26 @@
     {
       "name": "Cruise Connect",
       "description": "A social media platform to bring people together before their cruise boards...",
-      "stack": ["Javascript", "React", "Node", "Express", "MySQL", "Docker", "AWS", "Clerk"],
+      "stack": ["Typescript", "Tailwind", "React", "Express", "Node", "MySQL", "Docker", "AWS"],
       "link": "https://thecruiseconnect.com"
-    },
-    {
-      "name": "Portfolio Website",
-      "description": "A display of my current projects, rendered from JSON to allow quick additions of new projects...",
-      "stack": ["Javascript", "React", "Three.js", "Tailwind", "Vite"],
-      "link": "https://ethandean.dev"
     },
     {
       "name": "CV Alarm",
       "description": "A computer vision-based morning alarm system, your alarm will go off until you are detected out of bed...",
       "stack": ["Python", "Torch", "Torchvision", "OpenCV", "PyGame"],
       "link": "https://github.com/ethan-dean/cv_alarm"
+    },
+    {
+      "name": "Uni-Ledger",
+      "description": "A blockchain system that indefinitely records and verifies student degrees using smart contracts with a REST API....",
+      "stack": ["HL Fabric", "Docker", "Typescript", "Node", "Express", ""],
+      "link": "https://github.com/ethan-dean/uni-ledger"
+    },
+    {
+      "name": "Portfolio Website",
+      "description": "A display of my current projects, rendered from JSON to allow quick additions of new projects...",
+      "stack": ["Javascript", "React", "Three.js", "Tailwind", "Vite"],
+      "link": "https://ethandean.dev"
     }
   ]
 }
