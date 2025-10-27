@@ -7,8 +7,8 @@
       "link": "https://thecruiseconnect.com"
     },
     {
-      "name": "Systema (Hackathon Project, Winner)",
-      "description": "A system design online assessment platform with conversational AI, real-time context insertion, and proctoring...",
+      "name": "Systema (MLH Winner)",
+      "description": "A system design assessment platform with conversational AI, real-time context insertion, and proctoring...",
       "stack": ["ElevenLabs", "Next", "Gemini", "PostgreSQL", "React", "Typescript"],
       "link": "https://devpost.com/software/systema"
     },
