@@ -4,7 +4,7 @@
       "name": "Cruise Connect",
       "description": "A social media platform to bring people together before their cruise boards...",
       "stack": ["Typescript", "Tailwind", "React", "Express", "Node", "MySQL", "Docker", "AWS"],
-      "link": "https://thecruiseconnect.com"
+      "link": "https://thecruiseconnect.ethandean.dev"
     },
     {
       "name": "Systema (MLH Winner)",
@@ -16,7 +16,7 @@
       "name": "OurTab",
       "description": "A platform designed to help groups of users easily track and manage shared expenses and debts...",
       "stack": ["Typescript", "React", "Supabase", "Node", "Express"],
-      "link": "https://ourtab.xyz"
+      "link": "https://ourtab.ethandean.dev"
     },
     {
       "name": "CV Alarm",
