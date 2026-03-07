@@ -14,8 +14,8 @@
     },
     {
       "name": "Todue",
-      "description": "A low-friction todo, list, and routine application with realtime sync and cross-platform support...",
-      "stack": ["Springboot", "Flutter", "Typescript", "React", "MySQL", "Vite", "Oracle Cloud"],
+      "description": "A low-friction, opinionated app for todos, lists, and routines with realtime sync and cross-platform support...",
+      "stack": ["Springboot", "Maven", "MySQL", "OCI", "Flutter", "SQLite", "Typescript", "React" ],
       "link": "https://todue.ethandean.dev"
     },
     {
