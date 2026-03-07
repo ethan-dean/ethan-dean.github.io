@@ -13,10 +13,10 @@
       "link": "https://devpost.com/software/systema"
     },
     {
-      "name": "OurTab",
-      "description": "A platform designed to help groups of users easily track and manage shared expenses and debts...",
-      "stack": ["Typescript", "React", "Supabase", "Node", "Express"],
-      "link": "https://ourtab.ethandean.dev"
+      "name": "Todue",
+      "description": "A low-friction, opinionated app for todos, lists, and routines with realtime sync and cross-platform support...",
+      "stack": ["Springboot", "Maven", "MySQL", "OCI", "Flutter", "SQLite", "Typescript", "React" ],
+      "link": "https://todue.ethandean.dev"
     },
     {
       "name": "CV Alarm",
@@ -31,10 +31,10 @@
       "link": "https://github.com/ethan-dean/uni-ledger"
     },
     {
-      "name": "Portfolio Website",
-      "description": "A display of my current projects, rendered from JSON to allow quick additions of new projects...",
-      "stack": ["Javascript", "React", "Three.js", "Tailwind", "Vite"],
-      "link": "https://ethandean.dev"
+      "name": "OurTab",
+      "description": "A platform designed to help groups of users easily track and manage shared expenses and debts...",
+      "stack": ["Typescript", "React", "Supabase", "Node", "Express"],
+      "link": "https://ourtab.ethandean.dev"
     }
   ]
 }
